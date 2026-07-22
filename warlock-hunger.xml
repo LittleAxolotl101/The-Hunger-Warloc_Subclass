@@ -49,7 +49,7 @@
 			</table>
 		</description>
 		<sheet display="false">
-			<description>The Hunger allows you to choose form an expanded list of spells when you learn a warlock spell.</description>
+			<description>The Hunger allows you to choose from an expanded list of spells when you learn a warlock spell.</description>
 		</sheet>
 		<spellcasting name="Warlock" extend="true">
 			<extend>ID_PHB_SPELL_INFLICT_WOUNDS</extend>
@@ -85,13 +85,13 @@
 
 	<element name="Effortless Charm" type="Archetype Feature" source="Mickey's Brain" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_EFFORTLESS_CHARM">
 		<description>
-			<p>Beginning at 10th level, you are a master of the simple mind trick. You learn the cantrip friends and when you cast it, creatures do not realize they have been charmed and do not become hostile. Additionally, you can cast charm person without expending a spell slot. You can do this a number of times equal to your proficiency bonus..</p>
+			<p>Beginning at 10th level, you are a master of the simple mind trick. You learn the cantrip friends and when you cast it, creatures do not realize they have been charmed and do not become hostile. Additionally, you can cast charm person without expending a spell slot. You can do this a number of times equal to your proficiency bonus.</p>
 		</description>
 	</element>
 
 	<element name="Vampire's Trance" type="Archetype Feature" source="Mickey's Brain" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_VAMPIRES_TRANCE">
 		<description>
-			<p>At 14th level, you have mastered the art of seducing your prey. When you use the bite attack granted to you by the blood dinker feature, the target must make a Charisma saving throw against your warlock spell save DC. On a failed save, they are stunned. Every bite attack you take against them that hits while they are in this condition is a critical success. They may repeat this save at the end of their turns. The condition ends if you do not take the bite attack against them for a turn, or if you use this ability to stun a different creature. </p>
+			<p>At 14th level, you have mastered the art of seducing your prey. When you use the bite attack granted to you by the blood drinker feature, the target must make a Charisma saving throw against your warlock spell save DC. On a failed save, they are stunned. Every bite attack you take against them that hits while they are in this condition is a critical success. They may repeat this save at the end of their turns. The condition ends if you do not take the bite attack against them for a turn, or if you use this ability to stun a different creature. </p>
 		</description>
 	</element>
 
