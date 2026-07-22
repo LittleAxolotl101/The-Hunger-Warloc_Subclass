@@ -92,6 +92,7 @@
 	<element name="Vampire's Trance" type="Archetype Feature" source="Mickey's Brain" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_VAMPIRES_TRANCE">
 		<description>
 			<p>At 14th level, you have mastered the art of seducing your prey. When you use the bite attack granted to you by the blood dinker feature, the target must make a Charisma saving throw against your warlock spell save DC. On a failed save, they are stunned. Every bite attack you take against them that hits while they are in this condition is a critical success. They may repeat this save at the end of their turns. The condition ends if you do not take the bite attack against them for a turn, or if you use this ability to stun a different creature. </p>
+		</description>
 	</element>
 
 </elements>
