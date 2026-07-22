@@ -4,7 +4,7 @@
 		<name>The Hunger</name>
 		<description>A Custom Subclass for DND 5E</description>
 		<author>Mickey's Brain</author>
-		<update version="0.0.7">
+		<update version="0.0.1">
 			<file name="warlock-hunger.xml" url="https://raw.githubusercontent.com/LittleAxolotl101/The-Hunger-Warloc_Subclass/refs/heads/main/warlock-hunger.xml" />
 		</update>
 	</info>
@@ -35,13 +35,13 @@
 	<element name="Expanded Spell List" type="Archetype Feature" source="Mickey's Brain" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_EXPANDED_SPELL_LIST">
 		<supports>Warlock</supports>
 		<description>
-			<p>TThe Hunger allows you to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you. Additionally, when you take this subclass, you may use Intelligence in the place of Charisma for your warlock spells and abilities.</p>
+			<p>The Hunger allows you to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you. Additionally, when you take this subclass, you may use Intelligence in the place of Charisma for your warlock spells and abilities.</p>
 			<h5>HUNGER EXPANDED SPELLS</h5>
 			<table>
 				<thead>
 					<tr><td>Spell Level</td><td>Spells</td></tr>
 				</thead>
-				<tr><td>1st</td><td><em>iinflict wounds, dissonant whispers</em></td></tr>
+				<tr><td>1st</td><td><em>inflict wounds, dissonant whispers</em></td></tr>
 				<tr><td>2nd</td><td><em>detect thoughts, pass without trace</em></td></tr>
 				<tr><td>3rd</td><td><em>greater invisibility, feign death</em></td></tr>
 				<tr><td>4th</td><td><em>guardian of faith, phantasmal killer</em></td></tr>
