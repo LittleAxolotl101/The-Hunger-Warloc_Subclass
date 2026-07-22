@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>The Hunger</name>
+		<description>A Custom Subclass for DND 5E</description>
+		<author url="http://dnd.wizards.com/products/tabletop-games/rpg-products/xanathars-guide-everything">Xanathar’s Guide to Everything</author>
+		<update version="0.0.7">
+			<file name="warlock-celestial.xml" url="https://raw.githubusercontent.com/AuroraLegacy/elements/master/supplements/xanathars-guide-to-everything/archetypes/warlock-celestial.xml" />
+		</update>
+	</info>
+
+	<element name="The Hunger" type="Archetype" source="Mickey's Brain" id="ID_WOTC_XGTE_ARCHETYPE_HUNGER">
+		<supports>Otherworldly Patron</supports>
+		<description>
+			<p>Your patron is the supernatural entity entwined with the vampiric curse. It lives in every vampire, empowered by their Blood and the Hunt.</p>
+			<p class="indent">\ Your connection, however, is special - though not unique - among vampires. It’s only demand is what it has always been: more. To make a pact with the Hunger is to bargain one’s personhood for power.</p>
+			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_EXPANDED_SPELL_LIST" />
+			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_BLOOD_DRINKER" />
+			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_DARK_GIFT" />
+			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_VAMPIRIC_MAGIC" />
+			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_EFFORTLESS_CHARM" />
+			<div element="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_VAMPIRES_TRANCE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_EXPANDED_SPELL_LIST" level="1"/>
+			<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_BLOOD_DRINKER" level="1"/>
+			<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_DARK_GIFT" level="1"/>
+			<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_VAMPIRIC_MAGIC" level="6"/>
+			<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_EFFORTLESS_CHARM" level="10"/>
+			<grant type="Archetype Feature" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_VAMPIRES_TRANCE" level="14"/>
+		</rules>
+	</element>
+
+	<element name="Expanded Spell List" type="Archetype Feature" source="Mickey's Brain" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_EXPANDED_SPELL_LIST">
+		<supports>Warlock</supports>
+		<description>
+			<p>TThe Hunger allows you to choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you. Additionally, when you take this subclass, you may use Intelligence in the place of Charisma for your warlock spells and abilities.</p>
+			<h5>HUNGER EXPANDED SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Spell Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>iinflict wounds, dissonant whispers</em></td></tr>
+				<tr><td>2nd</td><td><em>detect thoughts, pass without trace</em></td></tr>
+				<tr><td>3rd</td><td><em>greater invisibility, feign death</em></td></tr>
+				<tr><td>4th</td><td><em>guardian of faith, phantasmal killer</em></td></tr>
+				<tr><td>5th</td><td><em>antilife shell, dominate person</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false">
+			<description>The Hunger allows you to choose form an expanded list of spells when you learn a warlock spell.</description>
+		</sheet>
+		<spellcasting name="Warlock" extend="true">
+			<extend>ID_PHB_SPELL_INFLICT_WOUNDS</extend>
+			<extend>ID_PHB_SPELL_DISSONANT_WHISPERS</extend>
+			<extend>ID_PHB_SPELL_DETECT_THOUGHTS</extend>
+			<extend>ID_PHB_SPELL_PASS_WITHOUT_TRACE</extend>
+			<extend>ID_PHB_SPELL_NONDETECTION</extend>
+			<extend>ID_PHB_SPELL_FEIGN_DEATH</extend>
+			<extend>ID_PHB_SPELL_GREATER_INVISIBILITY</extend>
+			<extend>ID_PHB_SPELL_PHANTASMAL_KILLER</extend>
+			<extend>ID_PHB_SPELL_ANTILIFE_SHELL</extend>
+			<extend>ID_PHB_SPELL_DOMINATE_PERSON</extend>
+		</spellcasting>
+	</element>
+
+	<element name="Blood Drinker" type="Archetype Feature" source="Mickey's Brain" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_BLOOD_DRINKER">
+		<description>
+			<p>Starting at 1st level, you gain a Bite attack which deals magical damage. You must have advantage to make this attack. This attack deals (1d8 + your Dexterity modifier) piercing damage, which increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level(4d8). For this attack only, you have advantage against creatures grappled by you. You may attempt to “short grapple” a creature as a bonus action, but this grapple ends at the end of your turn. When you deal this damage, you regain hit points equal to the damage dealt. A friendly creature within 5 feet may take their action to allow you to make this attack against the creature. You attack with your reaction and the attack will automatically succeed. When a creature uses its action in this way, you may attack as a reaction even if you are otherwise incapacitated as long as your mouth is not blocked.</p>
+	</element>
+
+	<element name="Dark Gift" type="Archetype Feature" source="Mickey's Brain" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_DARK_GIFT">
+		<description>
+			<P>The Dark Gift renders you difficult to kill. Starting at level 1, if you are downed, you may choose to spend a satiety point to return to 1 hit point.</description>
+	</element>
+
+	<element name="Vampiric Magic" type="Archetype Feature" source="Mickey's Brain" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_VAMPIRIC_MAGIC">
+		<description>
+			<p>Vampires have a special relationship with magic. Starting at 6th level, you gain the ability to convert blood into magical power. As an action, you can choose to take 2d10 force damage, plus 1d10 for each spell level past one and gain a spell slot of that level. These levels reset each dawn. </p>
+		</description>
+	</element>
+
+	<element name="Effortless Charm" type="Archetype Feature" source="Mickey's Brain" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_EFFORTLESS_CHARM">
+		<description>
+			<p>Beginning at 10th level, you are a master of the simple mind trick. You learn the cantrip friends and when you cast it, creatures do not realize they have been charmed and do not become hostile. Additionally, you can cast charm person without expending a spell slot. You can do this a number of times equal to your proficiency bonus..</p>
+		</description>
+	</element>
+
+	<element name="Vampire's Trance" type="Archetype Feature" source="Mickey's Brain" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_VAMPIRES_TRANCE">
+		<description>
+			<p>At 14th level, you have mastered the art of seducing your prey. When you use the bite attack granted to you by the blood dinker feature, the target must make a Charisma saving throw against your warlock spell save DC. On a failed save, they are stunned. Every bite attack you take against them that hits while they are in this condition is a critical success. They may repeat this save at the end of their turns. The condition ends if you do not take the bite attack against them for a turn, or if you use this ability to stun a different creature. </p>
+	</element>
+
+</elements>
