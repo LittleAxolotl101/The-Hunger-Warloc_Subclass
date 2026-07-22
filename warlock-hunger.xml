@@ -73,7 +73,7 @@
 
 	<element name="Dark Gift" type="Archetype Feature" source="Mickey's Brain" id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_HUNGER_DARK_GIFT">
 		<description>
-			<P>The Dark Gift renders you difficult to kill. Starting at level 1, if you are downed, you may choose to spend a satiety point to return to 1 hit point.</p>
+			<p>The Dark Gift renders you difficult to kill. Starting at level 1, if you are downed, you may choose to spend a satiety point to return to 1 hit point.</p>
 		</description>
 	</element>
 
